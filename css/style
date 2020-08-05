@@ -1,0 +1,461 @@
+/*CONFIGURAÇÕES GERAIS DE ESTILO*/
+body{
+    background-color: #F7F9FD;
+}
+
+header button{
+    background-color: #FFFFFF;
+    color: #615587;
+    border-width: 1px;
+    border-radius: 2px;
+    float: right;
+}
+
+#build button,
+#quadro-branco button{
+    background-color: #FF52BF;
+    color: #FFFFFF;
+    font-family: font-poppins-light;
+    border: none;
+}
+
+#quadro-branco{
+    background-color: #FFFFFF;
+    box-shadow: 5px 10px 10px 10px #E4E2F0;
+    text-align: center;
+}
+
+footer{
+    background-color: #00252E;
+    color: #FFFFFF;
+}
+
+#social ul,
+#listaRodape ul{
+    list-style-type: none;
+}
+
+#listaRodape a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#subscribe button{
+    background-color: #FF52BF;
+	color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+}
+
+#social li{
+    float: left;
+    margin-left: 10px;
+}
+
+#social a{
+    text-indent: -9999px;
+    display: block;
+    filter: invert(100%);
+}
+
+#build h1{
+    font-family: font-poppins-bold;
+}
+
+#quadro-branco p,
+header button{
+    font-family: font-poppins-regular;
+}
+
+#quadro-branco h1,
+#informs h1{
+    font-family: font-poppins-SemiBold;
+}
+
+
+#build p,
+#informs p{
+    font-family: font-opensans-light;
+}
+
+#subscribe h1{
+    font-family: font-opensans-SemiBold;
+}
+
+#listaRodape,
+#subscribe p{
+    font-family: font-opensans-light;
+}
+
+footer div > p:first-of-type{
+    font-family: font-poppins-light;
+}
+
+@media (min-width: 360px) and (max-width: 375px){
+    .my-container{
+        max-width: 335px;
+        margin: 25px auto 0px;
+    }
+    
+    /*CABEÇALHO*/
+    header img{
+        width: 8em;
+    }
+     
+    header button{
+        font-size: 11px;
+        padding: 3px 20px;
+        margin-top: 2px;
+    }
+    
+    /*IMAGEM CENTRAL E TRECHO PRINCIPAL*/
+    #img-mockups img{
+        width: 19em;
+        margin-top: 80px;
+    }
+     
+    #build{
+        margin-top: 30px;
+    }
+     
+    #build h1{
+        font-size: 25px;
+        width: 300px;
+        margin: auto;
+    }
+ 
+    #build p{
+        font-size: 16px;
+        width: 290px;
+        line-height: 25px;
+        margin: 15px auto;
+    }
+     
+    #build button{
+        font-size: 13px;
+        margin-top: 14px;
+        padding: 10px 36px;
+        border-radius: 3px;
+    }
+    
+    /*IMAGEM LATERAL DIREITA E TRECHOS LATERAL ESQUERDA*/
+    #img-users img{
+        width: 19em;
+        margin-top: 230px;
+        margin-left: 20px;
+    }
+     
+    #informs{
+        text-align: center;
+        margin: 85px auto 0px;
+    }
+     
+    #informs h1{
+        font-size: 20px;
+        width: 300px;
+        margin: 38px auto 16px;
+    }
+ 
+    #informs p{
+        font-size: 14px;
+        width: 305px;
+        line-height: 22px;
+        margin: auto;
+    }
+
+    /*QUADRO BRANCO CENTRAL*/
+    #quadro-branco{
+        width: 19em;
+        height: 10em;
+        margin: 100px auto;
+    }
+     
+    #quadro-branco h1{
+        font-size: 15px;
+        padding-top: 35px;
+    }
+     
+    #quadro-branco p{
+        font-size: 10px;
+    }
+     
+    #quadro-branco button{
+        font-size: 11px;
+        border-radius: 2px;
+        padding: 8px 36px;
+    }
+     
+    /*RODAPÉ*/
+    #img-logoWhite img{
+        width: 9em;
+        margin: 70px 81px;
+    }
+
+    #listaRodape ul{
+        font-size: 19px;
+        line-height: 45px;
+        padding-left: 10px;
+    }
+     
+    #subscribe{
+        width: 345px;
+        text-align: center;
+        margin: 60px auto 0px;
+    }
+     
+    #subscribe h1{
+        font-size: 20px;
+    }
+     
+    #subscribe p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+     
+    #subscribe input{
+        width: 310px;
+        padding: 8px 0;
+    }
+     
+    #subscribe button{
+        font-size: 15px;
+        width: 310px;
+        height: 48px;
+        margin-top: 15px;
+    }
+    
+    /*Logo das redes sociais*/
+    #social ul{
+        margin: 90px 65px;
+    }
+     
+    #social a{
+        width: 32px;
+        height: 32px;
+    }
+     
+    /*Copyright*/
+    footer div > p:first-of-type{
+        text-align: center;
+        font-size: 11px;
+        margin: 0px;
+        padding: 15px 0;
+        clear: both;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1440px){
+    .my-container{
+        max-width: 84%;
+        margin: 0px auto;
+    }
+
+    /*CABEÇALHO*/
+    header img,
+    header button{
+        margin: 70px auto;
+    }
+
+    header button{
+        padding: 10px 55px;
+    }
+
+    /*IMAGEM CENTRAL E TRECHO PRINCIPAL*/
+    #img-mockups img{
+		width: 48em;
+        margin-top: 45px;
+        margin-bottom: 65px;
+    }
+    
+    #build h1{
+        font-size: 30px;
+        margin: auto;
+    }
+
+    #build p{
+        font-size: 22px;
+        width: 710px;
+        line-height: 30px;
+        margin: 25px auto;
+    }
+    
+    #build button{
+        font-size: 15px;
+        padding: 15px 55px;
+        border-radius: 3px;
+    }
+    
+    /*IMAGEM LATERAL DIREITA E TRECHOS LATERAL ESQUERDA*/
+    #img-users img{
+        width: 34em;
+        margin-top: 530px;
+    }
+
+    #informs{
+        text-align: left;
+        width: 470px;
+        padding-left: 90px;
+        margin-top: 500px;
+    }
+
+    #informs h1{
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+
+    #informs p{
+        font-size: 17.5px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    
+    /*QUADRO BRANCO CENTRAL*/
+    #quadro-branco{
+        width: 67%;
+        height: 43%;
+        margin: 235px auto 345px;
+    }
+    
+    #quadro-branco h1{
+        font-size: 36px;
+        padding-top: 85px;
+    }
+    
+    #quadro-branco p{
+        font-size: 19px;
+        margin: 15px auto 30px;
+    }
+    
+    #quadro-branco button{
+        font-size: 16px;
+        padding: 15px 50px;
+        border-radius: 2px;
+    }
+    
+    /*RODAPÉ*/
+    footer div{
+        position: relative;
+    }
+
+    #img-logoWhite img{ /*Elemento da primeira coluna*/
+        width: 13em;
+        margin: 80px auto 23px;
+    }
+
+    #listaRodape{ /*Elementos da segunda coluna*/
+        padding-top: 10px;
+    }
+
+    #listaRodape ul {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-auto-flow: column;
+    }
+    
+    #listaRodape li{
+        font-size: 16px;
+        height: 35px;
+    }
+
+    #subscribe{
+        text-align: left;
+        width: 300px;
+    }
+
+    #listaRodape,
+    #subscribe{
+        margin: 140px auto;
+    }
+    
+    #subscribe h1{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    #subscribe p{
+        font-size: 13px;
+        padding-top: 8px;
+        width: 300px;
+    }
+    
+    #subscribe input{
+        width: 290px;
+        height: 45px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+    
+    #subscribe button{
+        font-size: 15px;
+        width: 145px;
+        height: 45px;
+        border-radius: 2px;
+        margin: 15px auto 10px 145px;
+    }
+    
+    /*Logo das redes sociais*/
+    #social ul{
+        padding: 0px;
+        position: absolute;
+        top: 145px;
+        left: 0px;
+    }
+    
+    #social a{
+        width: 40px;
+        height: 40px;
+    }
+    
+    /*Copyright*/
+    footer div > p:first-of-type{
+        font-size: 15px;
+        position: absolute;
+        top: 210px;
+    }
+}
+
+a[href*="facebook"]{
+    background-image: url(../images/icons/_ionicons_svg_logo-facebook.svg);
+    background-repeat: no-repeat;
+}
+
+a[href*="instagram"]{
+    background-image: url(../images/icons/_ionicons_svg_logo-instagram.svg);
+    background-repeat: no-repeat;
+}
+
+a[href*="twitter"]{
+    background-image: url(../images/icons/_ionicons_svg_logo-twitter.svg);
+    background-repeat: no-repeat;
+}
+
+/* FONTES USADAS NOS TEXTOS E BOTÕES */
+@font-face{
+    font-family: font-poppins-regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: font-poppins-light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: font-opensans-light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face{
+    font-family: font-poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face{
+    font-family: font-opensans-SemiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: font-poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
